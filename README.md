@@ -1,5 +1,5 @@
 # 👻 syshook 
-Tool to detect syscalls usermode hooks (ntdll.dll) from EDRs/AVs
+Tool to detect syscalls usermode hooks (ntdll.dll) from EDRs/AVs and get dynamically the syscall number.
 
 ## Description
 **syshook** allows you to detect if a syscall is hooked or not, and retrieve the SSDT index of the syscall using a PATCH and UNPATCH method.
